@@ -1,0 +1,36 @@
+.resItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--verde);
+    border-radius: 10px;
+    padding: 5px 15px;
+    width: 30%;
+    color: var(--primary);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.719);
+}
+
+.header-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+    font-size: 20px;
+    margin: 15px auto;
+}
+.svg {
+    width: 25px;
+    height: 25px;
+}
+
+span{
+    font: bold;
+    font-size: 30px;
+}
+@media (max-width: 710px){
+    .resItem{
+        width: 300px;
+        font-size: 12px;
+    }
+}

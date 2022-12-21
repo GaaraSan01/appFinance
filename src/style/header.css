@@ -1,0 +1,10 @@
+header{
+    height: 150px;
+    text-align: center;
+    background: var(--primary);
+    color: var(--white);
+}
+
+h1 {
+    padding-top: 20px;
+}
